@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive Button</title>
+
+    <style>
+        body{
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        .btn1{
+            background-color: orangered;
+            padding: 18px;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            border-radius: 80px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            
+        }
+
+        .btn1:hover{
+            background-color: orange;
+            box-shadow: 2px 2px 4px rgb(50, 50, 50);
+        }
+        h1{
+            display: none;
+            color: white;
+        }
+    /*it is responsive*/
+        @media (max-width:720px) {
+            body{
+                background-color: black;
+            }
+            .btn1{
+                display: none;
+            }
+            h1{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+<!--links-->
+   <a href="" class="btn1">Google</a>
+
+
+    <h1>it is not support in phone screen....</h1>
+
+</body>
+</html>
